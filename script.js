@@ -1,6 +1,6 @@
 async function convertCurrency() {
     const amount = document.getElementById('amount').value;
-    const apiKey = '3d8c9289fdc83e4c88a62128';
+    const apiKey = 'key here';
     const url = `https://v6.exchangerate-api.com/v6/${apiKey}/pair/USD/EUR/${amount}`;
 
     try {
